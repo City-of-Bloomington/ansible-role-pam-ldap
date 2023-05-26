@@ -19,7 +19,7 @@ pam_ldap:
 Dependencies
 ------------
 
-* City-of-Bloomington.linux
+* [City-of-Bloomington.linux](https://github.com/City-of-Bloomington/ansible-role-pam-ldap)
 
 Copying and License
 -------
