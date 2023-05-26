@@ -1,0 +1,15 @@
+---
+- name: "Install pam_ldap"
+  ansible.builtin.apt:
+    name: "{{ packages }}"
+    state: "present"
+  vars:
+    packages:
+      - "libpam-ldap"
+
+- name: 'Configure LDAP'
+  ansible.builtin.template:
+    src:  'ldap.conf'
+    dest: '/etc/ldap.conf'
+    mode: '0600'
+...

@@ -1,0 +1,20 @@
+---
+galaxy_info:
+  name:        'pam-ldap'
+  description: 'Configure PAM Ldap authentication'
+  company:     'City of Bloomington, Indiana'
+  license:     'GPLv3'
+  min_ansible_version: '2.4'
+
+  platforms:
+    - name: 'Ubuntu'
+      versions:
+        - 'focal'
+
+  galaxy_tags:
+    - 'ubuntu'
+    - 'system'
+
+dependencies:
+  - { role: 'City-of-Bloomington.linux'  }
+...
