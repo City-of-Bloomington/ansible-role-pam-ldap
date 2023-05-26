@@ -7,12 +7,14 @@ Configures PAM Ldap authentication
 Role Variables
 --------------
 
+```yml
 pam_ldap:
   uri:            "ldaps://example.org:636"
   base:           "OU=Departments,DC=example,DC=org"
   binddn:         "admin@example.org"
   bindpw:         "secret password"
   login_attribue: "sAMAccountName"
+```
 
 Dependencies
 ------------
