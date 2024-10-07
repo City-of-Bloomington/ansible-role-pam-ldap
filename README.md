@@ -13,7 +13,7 @@ pam_ldap:
   base:           "OU=Departments,DC=example,DC=org"
   binddn:         "admin@example.org"
   bindpw:         "secret password"
-  login_attribue: "sAMAccountName"
+  login_attribute: "sAMAccountName"
 ```
 
 Dependencies
